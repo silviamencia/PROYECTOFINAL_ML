@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -32,4 +31,3 @@ if uploaded_file is not None:
         # Mostrar gráfico
         st.write(f"Gráfico de {columna_y} vs {columna_x}")
         fig, ax = plt.subplots()
-        ax.plot(df[columna_x_]()
